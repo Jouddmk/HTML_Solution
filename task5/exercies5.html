@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .button1{
+            width: 90px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+            <th colspan="2"><p>Registration Form</p></th>
+        </tr>
+        <tr>
+            <td>Enter Name</td>
+            <td colspan="2"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Enter Password</td>
+            <td colspan="2"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Enter Address</td>
+            <td><textarea id="message" rows="3"></textarea> </td>
+        </tr>
+        <tr>
+            <td>Select Game</td>
+            <td>
+            <input type="checkbox">Hockey<br>
+            <input type="checkbox">Football<br>
+            <input type="checkbox">Badmintion<br>
+            <input type="checkbox">Cricket<br>
+            <input type="checkbox">Volleyball<br>
+            </td>
+        </tr>
+        <tr>
+            <td>Genger</td>
+            <td>
+                <input type="radio">
+                <label for="male">Male</label>
+                <input type="radio">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Selsct ur age</td>
+            <td><select><option>select</option></select></td>
+        </tr>
+        <tr>
+            <td>Select Photo</td>
+            <td><button>Choose File</button>No file chosen</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button class="button1">Click Me</button>
+                <button class="button1">Reset</button><br>
+                <button class="button1">Submit Form</button>
+            </td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>
